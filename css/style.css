@@ -1,0 +1,25 @@
+img{
+    width: 100%;
+}
+
+.my_top-header{
+    height: 50px;
+    background-color: black;
+}
+
+.my_sony-logo{
+    width: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link i{
+    color: grey;
+}
+
+.navbar-nav .nav-item .nav-link {
+    max-height: 40px;
+}
+
