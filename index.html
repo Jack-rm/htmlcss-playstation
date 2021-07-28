@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- link to font awesome for <i> elements -->
+    <!-- link to fontawesome.com for <i> elements -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
     <!-- link to Bootstrap 5's framework for more generic css usage -->
@@ -16,6 +16,52 @@
     <title>Playstation</title>
 </head>
 <body>
-    
+    <header>
+        <section class="my_top-header d-flex justify-content-end align-items-center">
+            <div class="my_sony-logo mb-1 me-2">
+                <img src="img/sony_logo.svg" alt="Sony header logo">
+            </div>
+        </section>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white">
+            <a class="navbar-brand" href="#">
+                <div class="my_playstation-logo">
+                    <img src="img/play_logo.svg" alt="Playstation header logo">
+                </div></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse justify-content-between" id="navbarsExample05">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Giochi <span><i class="fas fa-angle-down"></i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hardware <span><i class="fas fa-angle-down"></i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servizi <span><i class="fas fa-angle-down"></i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Novità <span><i class="fas fa-angle-down"></i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fai acquisti <span><i class="fas fa-angle-down"></i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Supporto <span><i class="fas fa-angle-down"></i></span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My PLayStation <span><i class="fas fa-angle-down"></i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary">Accedi</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
