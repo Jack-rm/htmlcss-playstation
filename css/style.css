@@ -23,9 +23,6 @@ img{
     color: grey;
 }
 
-.navbar-nav .nav-item .nav-link {
-}
-
 .my_lens-logo{
     width: 25px;
 }
@@ -38,4 +35,26 @@ img{
 
 .navbar-nav .btn:hover{
     border-color: #363636;
+}
+
+.my_jumbotron {
+    height: 75vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.my_carousel-box{
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.my_carousel-box:hover{
+    border: 2px solid blue;
+}
+
+.my_carousel-box-inner{
+    border-radius: 15px;
+    overflow: hidden;
 }
