@@ -34,7 +34,8 @@ img{
 }
 
 .my_nav-btn:hover{
-    border-color: #363636;
+    border-color: #646464;
+    background-color: #2d64e6;
 }
 
 .my_jumbotron {
@@ -45,12 +46,12 @@ img{
 }
 
 .my_carousel-box{
-    border: 2px solid white;
+    border: 2px solid transparent;
     border-radius: 15px;
 }
 
 .my_carousel-box:hover{
-    border: 2px solid blue;
+    border: 2px solid #2d64e6;
 }
 
 .my_carousel-box-inner{
@@ -83,7 +84,7 @@ img{
 
 .my_ps5-box:hover{
     opacity: 1;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #2d64e6;
 }
 
 #my_game-banner{
@@ -95,4 +96,18 @@ img{
 
 #my_game-banner-item{
     padding: 60px 0px 40px 0px;
+}
+
+#my_game-carousel{
+    background-color: #1f1f1f;
+}
+
+#my_game-carousel .container .row > div:hover .my_carousel-box{
+    border: 2px solid grey;
+}
+
+.my_ps5-btn{
+    background-color: #2d64e6;
+    border-radius: 35px;
+    border: 1px solid #2d64e6;
 }
