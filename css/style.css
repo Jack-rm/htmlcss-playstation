@@ -15,7 +15,7 @@ img{
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: black;
+    color: #1f1f1f;
 }
 
 .navbar-light .navbar-nav .nav-link i{
@@ -33,9 +33,11 @@ img{
 }
 
 .my_nav-btn:hover{
-    border-color: #646464;
+    border-color: #2d64e6;
     background-color: #2d64e6;
 }
+
+
 
 .my_carousel-box{
     border: 2px solid transparent;
@@ -66,17 +68,19 @@ img{
 }
 
 .my_jumbo-btn:hover{
-    background-color: #cd3d0f;
+    background-color: #2d64e6;
+    border-color: #2d64e6;
 }
 
 .my_ps5-box{
     opacity: 0.7;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 .my_ps5-box:hover{
     opacity: 1;
-    border-bottom: 2px solid #2d64e6;
+    border-bottom: 3px solid #2d64e6;
+    border-radius: 1px;
 }
 
 .my_ps5-btn{
