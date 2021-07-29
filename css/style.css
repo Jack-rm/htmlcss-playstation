@@ -2,13 +2,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
-    width: 100%;
+footer{
+    background-color: #00439c;
 }
 
-.my_top-header{
-    height: 50px;
-    background-color: black;
+img{
+    width: 100%;
 }
 
 .my_sony-logo{
@@ -36,13 +35,6 @@ img{
 .my_nav-btn:hover{
     border-color: #646464;
     background-color: #2d64e6;
-}
-
-.my_jumbotron {
-    background-image: url(../img/jumbo-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .my_carousel-box{
@@ -87,6 +79,42 @@ img{
     border-bottom: 2px solid #2d64e6;
 }
 
+.my_ps5-btn{
+    background-color: #2d64e6;
+    border-radius: 35px;
+    border: 1px solid #2d64e6;
+}
+
+.my_ps-plus-btn{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 35px;
+    border: none;
+    color: #2d64e6;
+}
+
+.my_ps-now-btn{
+    background-color: white;
+    border-radius: 35px;
+    border: none;
+    color: black;
+}
+
+.my_ps-now-btn:hover{
+    background-color: #2d64e6;
+}
+
+#my_top-header{
+    height: 50px;
+    background-color: black;
+}
+
+#my_jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 #my_game-banner{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
@@ -106,38 +134,10 @@ img{
     border: 2px solid grey;
 }
 
-.my_ps5-btn{
-    background-color: #2d64e6;
-    border-radius: 35px;
-    border: 1px solid #2d64e6;
-}
-
 #my_ps-plus-banner{
     background-color: #bebcbb;
 }
 
-.my_ps-plus-btn{
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 35px;
-    border: none;
-    color: #2d64e6;
-}
-
 #my_ps-now-banner{
     background-color: #161c3b;
-}
-
-.my_ps-now-btn{
-    background-color: white;
-    border-radius: 35px;
-    border: none;
-    color: black;
-}
-
-.my_ps-now-btn:hover{
-    background-color: #2d64e6;
-}
-
-footer{
-    background-color: #00439c;
 }
