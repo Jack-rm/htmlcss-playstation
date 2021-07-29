@@ -75,3 +75,12 @@ img{
 .my_jumbo-btn:hover{
     background-color: #cd3d0f;
 }
+
+.my_ps5-box{
+    opacity: 0.7;
+}
+
+.my_ps5-box:hover{
+    opacity: 1;
+    border-bottom: 2px solid blue;
+}
