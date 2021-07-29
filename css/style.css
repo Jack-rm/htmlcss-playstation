@@ -79,7 +79,7 @@ img{
 
 .my_ps5-box{
     opacity: 0.7;
-    height: 230px
+    border-bottom: 2px solid transparent;
 }
 
 .my_ps5-box:hover{
@@ -110,4 +110,15 @@ img{
     background-color: #2d64e6;
     border-radius: 35px;
     border: 1px solid #2d64e6;
+}
+
+#my_ps-plus-banner{
+    background-color: #bebcbb;
+}
+
+.my_ps-plus-btn{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 35px;
+    border: none;
+    color: #2d64e6;
 }
