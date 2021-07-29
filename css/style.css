@@ -85,3 +85,14 @@ img{
     opacity: 1;
     border-bottom: 2px solid blue;
 }
+
+#my_game-banner{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#my_game-banner-item{
+    padding: 60px 0px 40px 0px;
+}
