@@ -122,3 +122,22 @@ img{
     border: none;
     color: #2d64e6;
 }
+
+#my_ps-now-banner{
+    background-color: #161c3b;
+}
+
+.my_ps-now-btn{
+    background-color: white;
+    border-radius: 35px;
+    border: none;
+    color: black;
+}
+
+.my_ps-now-btn:hover{
+    background-color: #2d64e6;
+}
+
+footer{
+    background-color: #00439c;
+}
