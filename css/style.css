@@ -28,6 +28,10 @@ img{
     width: 100px;
 }
 
+.my_down-arrow{
+    width: 10px;
+}
+
 .navbar-light .navbar-nav .nav-link{
     color: #1f1f1f;
 }
@@ -164,8 +168,4 @@ img{
 
 #my_ps-now-banner{
     background-color: #161c3b;
-}
-
-.my_down-arrow{
-    width: 10px;
 }
